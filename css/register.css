@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .lg input{
+    padding: 15px  80px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(204, 182, 182);
+    width: 70%;
+    height: 100%;
+   background-color:rgba(213, 195, 213, 0.699);
+   font-size: 25px;
+
+    
+    
+}
+.up a{
+    font-size: 30px;
+}
+i{
+    color: aqua;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+   
+   
+.lg{
+    margin-top: 20px;
+    border: none;
+    
+}
+.login{
+    text-align: center;
+    margin: 5rem;
+    
+    
+    
+}
+.main{
+   
+    border:3px solid;
+    width: 40% !important;
+   
+    height:650px;
+    margin: 70px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg);
+    
+}
+  
+#loginclick{
+    padding: 15px 100px;
+    margin-top: 30px;
+    margin-left: -60px;
+    color: white;
+    background-color: rgb(32, 43, 247);
+    font-size: 20px;
+    letter-spacing: 0.5vh;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+  .up{
+    margin-bottom: 20px;
+    
+  }  
+    
+.up a{
+    font-size: 30px;
+    color: rgb(228, 233, 237);
+   
+}
+#body{
+   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200626/pngtree-abstract-futuristic-dual-color-blue-pink-neon-banner-image_340219.jpg);
+   
+}
+ .bt{
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.bt p{
+   color: white;
+   font-size: 30px;
+}
+
+   
+   
+   
+    
+
+.bt a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+}
+.bt a:hover{
+    text-decoration: underline;
+  
+
+}
+
+
+#eyes{
+    position: absolute;
+    right: 42%;
+    top: 43.9%;
+}
+.lg .password{
+    position: relative;
+}

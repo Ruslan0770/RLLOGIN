@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .lg input{
+    padding: 15px  80px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    width: 70%;
+    height: 100%;
+   background-color:rgb(155, 155, 240);
+   font-size: 25px;
+
+    
+    
+}
+i{
+    color: aqua;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+   
+   
+.lg{
+    margin-top: 20px;
+    border: none;
+    
+}
+.login{
+    text-align: center;
+    margin: 5rem;
+}
+    
+    
+    
+.up a{
+    font-size: 30px;
+}
+.main{
+   
+    border:3px solid;
+    width: 40% !important;
+    background-color:rebeccapurple;
+    height:650px;
+    margin: 70px;
+    background-image: url("https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg");
+}
+  
+#loginclick{
+    padding: 15px 100px;
+    margin-top: 30px;
+    margin-left: -60px;
+    color: white;
+    background-color: rgb(132, 32, 247);
+    font-size: 20px;
+    letter-spacing: 0.5vh;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+  .up{
+    margin-bottom: 20px;
+    
+  }  
+    
+.up span{
+    font-size: 30px;
+    color: aliceblue;
+   
+}
+#body{
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/4114f57a-b4c2-4669-8a25-c84d171b7be8/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=cc70e9e3a5bb8faa1325251a90e10ff6);
+   
+}
+ .bt{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.bt p{
+   color: white;
+   font-size: 25px;
+}
+
+
+.bt a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(187, 187, 193);
+
+}
+.bt a:hover{
+    text-decoration: underline;
+}
+#eyes{
+    position: absolute;
+    right: 42%;
+    top: 43.9%;
+}
+.lg .password{
+    position: relative;
+}
+
+
+
+
+  
+
+
+    
