@@ -16,4 +16,6 @@ eyes.forEach(eyeIcon => {
     })
 });
 
+
+localStorage.setItem('User',JSON.stringify([]));
     

@@ -117,3 +117,11 @@ i{
 .lg .password{
     position: relative;
 }
+.user{
+    font-size: 30px;
+    
+    color: white;
+}
+#users{
+    opacity: 1;
+}
