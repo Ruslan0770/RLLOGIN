@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#users{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+ 
+}
+#body{
+    width: 600px;
+    height: 150px;
+    border: 1px solid saddlebrown;
+    border-radius: 10px;
+    background-color: azure;
+    margin-left: 40px;
+    margin: auto;
+    margin-top: 20px;
+}

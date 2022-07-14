@@ -1,21 +1,26 @@
-let main=document.querySelector(".main");
-let password=document.querySelectorAll(".password");
-let username=document.querySelectorAll(".name1");
-let email=document.querySelectorAll(".email");
-let eyes=document.querySelectorAll('.eye');
-eyes.forEach(eyeIcon => {
-    eyeIcon.addEventListener("click",()=>{
-        password.forEach(password1 => {
-            if(password1.type==="password"){
-                password1.type="text";
-            }
-            else{
-                password1.type="password";
-            }
-        });
-    })
-});
+let login=document.getElementById("loginclick")
+let validate=document.getElementById("validate")
+login.addEventListener("click",(e)=> {
+    e.preventDefault();
+    let name1 =document.querySelector(".name1").value
+    let email =document.querySelector(".email").value
+    let password =document.querySelector(".password").value
+    const userDetail=JSON.parse(localStorage.getItem("User"))
+   
+    if(userDetail.length==0)
+    validate.innerHTML="User not found"
+
+       userDetail.forEach(user => {
+        if (user.name===name1&&user.email===email&&user.password===password) {
+           location.replace("http://127.0.0.1:5501/html/user.html")
+        }else{
+            validate.classList.remove('d-none');
+            validate.innerHTML="User not found"
+        }
+       });
+      
+})
 
 
-localStorage.setItem('User',JSON.stringify([]));
+
     

@@ -8,10 +8,10 @@
     border: none;
     outline: none;
     border-bottom: 2px solid rgb(204, 182, 182);
-    width: 70%;
+    width: 85%;
     height: 100%;
    background-color:rgba(213, 195, 213, 0.699);
-   font-size: 25px;
+   font-size: 20px;
 
     
     
@@ -40,15 +40,16 @@ i{
     
 }
 .main{
-   
     border:3px solid;
-    width: 40% !important;
-   
     height:650px;
+    width: 40% !important;
     margin: 70px;
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg);
-    
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-technology-business-blue-background-glare-image_23384.jpg);
 }
+   
+   
+    
+    
   
 #loginclick{
     padding: 15px 100px;
@@ -61,35 +62,44 @@ i{
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
-
-
-  .up{
+.up{
     margin-bottom: 20px;
-    
-  }  
-    
+}  
+
 .up a{
     font-size: 30px;
     color: rgb(228, 233, 237);
-   
 }
 #body{
-   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200626/pngtree-abstract-futuristic-dual-color-blue-pink-neon-banner-image_340219.jpg);
-   
+    background-image: url(https://previews.123rf.com/images/tunnelmotions/tunnelmotions1909/tunnelmotions190900075/129479631-futuristic-space-sci-fi-tunnel-with-hot-metal-3d-rendering-wallpaper-backgrounds.jpg);
 }
- .bt{
+.bt{
     margin-top: 40px;
     text-align: center;
     margin-right: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 .bt p{
    color: white;
    font-size: 30px;
 }
+#eyes{
+    position: absolute;
+    right: 48.5%;
+    top: 40.9%;
+    opacity: 0;
+}
+#password{
+    position: relative;
+}
+
+    
+    
+   
+   
+    
 
    
    
@@ -124,4 +134,8 @@ i{
 }
 #users{
     opacity: 1;
+}
+.up p{
+    font-size: 35px;
+    color: white;
 }

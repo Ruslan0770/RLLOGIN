@@ -8,10 +8,10 @@
     border: none;
     outline: none;
     border-bottom: 2px solid red;
-    width: 70%;
+    width: 85%;
     height: 100%;
    background-color:rgb(155, 155, 240);
-   font-size: 25px;
+   font-size: 20px;
 
     
     
@@ -73,7 +73,9 @@ i{
    
 }
 #body{
-    background-image: url(https://videohive.img.customer.envatousercontent.com/files/4114f57a-b4c2-4669-8a25-c84d171b7be8/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=cc70e9e3a5bb8faa1325251a90e10ff6);
+   background-color: rgb(2, 2, 1);
+    
+    
    
 }
  .bt{
@@ -86,7 +88,7 @@ i{
 }
 .bt p{
    color: white;
-   font-size: 25px;
+   font-size: 20px;
 }
 
 
@@ -101,8 +103,8 @@ i{
 }
 #eyes{
     position: absolute;
-    right: 42%;
-    top: 43.9%;
+    right: 40.5%;
+    top: 48.9%;
 }
 .lg .password{
     position: relative;
